@@ -82,7 +82,15 @@ footer{
 
 
 @media (max-width: 992px) {
-    .imgbox{
+    .imgbox-content{
+        display: flex;
+        flex-wrap: wrap;
+        overflow-x: auto;
+        width: auto;
+        margin-top: 60px;
+    }
+
+    .box{
         display: flex;
         flex-wrap: nowrap;
         overflow-x: auto;
@@ -101,15 +109,15 @@ footer{
     }
     
     .animals{
-        background-image: url(./pandarogne.jpg);
+        background-image: url(./images/pandarogne.jpg);
     }
 
     .tiersmonde{
-        background-image: url(./Drupalrogne.jpg)
+        background-image: url(./images/Drupalrogne.jpg)
     }
 
     .globalwarming{
-        background-image: url(./bear2rogne.jpg);
+        background-image: url(./images/bear2rogne.jpg);
         background-position: right 35% bottom 45%;
     }
 
