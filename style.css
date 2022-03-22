@@ -1,29 +1,40 @@
-body, html{
-    width: 100vw;
-
-}
-
-
 header{
     width: 100%;
 }
 
-nav ul li a{
-    color: #34495e;
+.bottle{
+    width: 100%;
+    height: 100%;
+    max-height: 35rem;
 }
+.nav{
+    display: flex;
+    justify-content: center;
+    width: 120px;
+}
+
+nav ul li a{
+    width: 120px;
+    text-align: center;
+}
+
 nav ul li a:hover{
     color: #2ecc71;
     background-color: bisque;
 }
 
 main{
-    height: 60%;
-   /* background-color:beige;*/
+    height: 80%;
 }
+
+.imgbox-content{
+    z-index: 1;
+}
+
 
 .actubox{
     padding: 10px;
-  /*  background: #ecf0f1;*/
+    background: #ecf0f1;
 }
 
 .items{
@@ -46,63 +57,76 @@ main{
     justify-content: end;
 }
 
+.social-links-twitter{
+    width: 25%;
+    background: rgba(52, 152, 219,1.0);
+    color: white;
+}
+.social-links-fb{
+    width: 25%;
+    background: rgba(41, 128, 185,1.0);
+    color: white;
+}
+.social-links-insta{
+    background: rgba(243, 156, 18,1.0);
+    color: rgba(211, 84, 0,1.0);
+    width: 25%;
+}
+.social-links-share{
+    background: rgba(149, 165, 166,1.0);
+    color: rgba(52, 73, 94,1.0);
+    width: 25%;
+}
 
 
 footer{
-    height: 30%;
-    background-color: #27ae60;
+    height: 20vh;
+    background-color: rgba(230, 126, 34,1.0);
+    margin-top: 15px;
+    color: white;
 }
 
+@media (max-width: 576px) {
 
-@media (min-width: 576px) {
-
-}
-
-
-@media (min-width: 768px) {
-
-    .nav{
-        display: flex;
-        justify-content: flex-end;
-        width: 120px;
-    }
-
-    nav ul li a{
-        width: 120px;
-        text-align: center;
-    }
-}
-
-
-@media (max-width: 768px) {
-    .donsbutton{
+.card-body .btn-warning{
         display: none;
     }
 
 }
 
+@media (min-width: 992px) {
+    .donsbutton{
+        display: none;
+    }
+}
 
 
 @media (max-width: 992px) {
-
-    .main-background{
-        background-image: url(./images/bottle-rogne.jpg);
-        box-shadow: inset 0 0 0 1000px rgba(4, 155, 67, 0.513);
-    
+    .donsbutton-expand{
+        display: none;
     }
+}
+
+@media (max-width: 992px) {
 
     .imgbox-content{
         display: flex;
         flex-wrap: wrap;
         overflow-x: auto;
         width: auto;
-        padding-top: 450px;
         padding-bottom: 30px;
     }
 
     .imgbox-background{
         background-color: rgba(0, 0, 0, 0.45);
         color: white;
+        padding-top: 15px;
+    }
+
+    .imgbox-content a{
+        text-decoration: none;
+        color: white;
+
     }
 
     .box{
@@ -121,6 +145,11 @@ footer{
     .items:hover{
         box-shadow:-0px 1px 15px rgb(243, 243, 243);
 
+    }
+
+    .about-us{
+        background: #ecf0f1;
+        padding-top: 35px;
     }
     
     .animals{
@@ -242,9 +271,13 @@ footer{
     .missions-box{
         display: flex;
         flex-wrap: wrap;
+        font-size: 0.8em;
     }
 
-}
+    .projects-box{
+        background: lightgrey;
+    }
+
 
 
 @media (min-width: 1200px) {
