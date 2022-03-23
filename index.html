@@ -10,7 +10,6 @@
     <title>OneLeaf</title>
 </head>
 <body>
-
         <header>
             <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
                 <div class="container-fluid">
@@ -59,7 +58,11 @@
                     </span>
                 </div>
             </nav>
-            <img class="bottle" src="./images/bottle-max.jpeg" alt="">
+            <div class="row justify-content-center">
+                <div class="col-12 col-xl-12 col-xxl-11">
+                    <img class="bottle" src="./images/bottle-max.jpeg" alt="">
+                </div>
+            </div>
         </header>
     
     
@@ -74,10 +77,11 @@
                         </svg>
                     </a>
                 </h2>
-                <div class="box col-12">
 
-                    <div class="box col-3">
-                        <div class="items animals">
+                <div class="box row actu-box">
+
+                    <div class="box col-3 actu-box-item-1">
+                        <div class="item-animals">
                             <div class="container-fluid content">
                                 <div class="text">
                                     <a href="#">
@@ -90,9 +94,9 @@
                             </div>
                         </div>
                     </div>
-
-                    <div class="box col-3">
-                        <div class="items tiersmonde">
+                    
+                    <div class="box col-3 actu-box-item-2">
+                        <div class="item-tiersmonde">
                             <div class="container-fluid content">
                                 <div class="text">
                                     <a href="#">
@@ -106,8 +110,8 @@
                         </div>
                     </div>
 
-                    <div class="box col-3">
-                        <div class="items globalwarming">
+                    <div class="box col-3 actu-box-item-3">
+                        <div class="item-globalwarming">
                             <div class="container-fluid content">
                                 <div class="text">
                                     <a href="#">
@@ -121,8 +125,8 @@
                         </div>
                     </div>
 
-                    <div class="box col-3">
-                        <div class="items">
+                    <div class="box col-3 actu-box-item-4">
+                        <div class="item-benevole">
                             <div class="container-fluid content">
                                 <div class="text">
                                     <a href="#">
@@ -135,6 +139,23 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="box col-3 actu-box-item-5">
+                        <div class="item-benevole">
+                            <div class="container-fluid content">
+                                <div class="text">
+                                    <a href="#">
+                                        <h2>Benevolat</h2>
+                                        <p>Les animaux souffrent, aidons-les.</p>
+                                        <p>Consultez nos projets pour la defense des animaux</p>
+                                    </a>
+                                    <a href="#" role="button" class="btn btn-primary">Lire la suite</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
 
                 </div>
             </article> 
@@ -173,22 +194,26 @@
         </section>
         
         <section class="container-fluid">
-            <article class="row missions">
-                <div class="col-12">
-                    <h2>
-                        Nos missions
-                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
-                        </svg>
-                    </h2>
-                    <div class="missions-box">
-                        <a class="missions-items1 col-2 text-center">Aider</a>
-                        <a class="missions-items2 col-2 text-center">Secourir</a>
-                        <a class="missions-items3 col-2 text-center">Restaurer</a>
-                        <a class="missions-items4 col-2 text-center">Enquêter</a>
-                        <a class="missions-items5 col-2 text-center">Decouvrir</a>
-                        <a class="missions-items6 col-2 text-center">Sensibiliser</a>
+            <article class="row">
+                <h2>
+                    Nos missions
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                    </svg>
+                </h2>
+                <div class="col-12 missions">
+
+                    <div class="missions-content">
+                        <div class="missions-box">
+                            <a class="missions-items1 col-2 text-center" href="#">Aider</a>
+                            <a class="missions-items2 col-2 text-center" href="#">Secourir</a>
+                            <a class="missions-items3 col-2 text-center" href="#">Restaurer</a>
+                            <a class="missions-items4 col-2 text-center" href="#">Enquêter</a>
+                            <a class="missions-items5 col-2 text-center" href="#">Decouvrir</a>
+                            <a class="missions-items6 col-2 text-center" href="#">Sensibiliser</a>
+                        </div>
                     </div>
+
                 </div>
             </article>
         </section>
