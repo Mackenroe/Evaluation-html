@@ -81,8 +81,9 @@ main{
 
 .about-us{
     background: rgba(243, 156, 18,0.9);
-    padding-top: 35px;
+    padding-top: 15px;
     padding-bottom: 25px;
+    margin-top: 15px;
     height: auto;
 }
 
@@ -263,6 +264,10 @@ footer a{
 
 }
 
+.projects{
+    background: white;
+}
+
 /******************MAX 768 px (768 et en dessous) ******************/
 
 @media (max-width: 768px) {
@@ -411,6 +416,7 @@ footer a{
     .projects-box{
         background: lightgrey;
     }
+    
 
 }
 
