@@ -73,6 +73,11 @@ ul.aboutus-nav:hover{
     text-align: justify;
 }
 
+iframe{
+    border: 0;
+    margin: auto;
+}
+
 .locals{
     background: rgba(83, 84, 84, 0.453);
 }
@@ -80,7 +85,6 @@ ul.aboutus-nav:hover{
 footer{
     height: 30vh;
     background-color: rgba(230, 126, 34,1.0);
-    margin-top: 15px;
     color: white;
 }
 

@@ -134,7 +134,6 @@ main{
     background: rgba(243, 156, 18,0.9);
     padding-top: 15px;
     padding-bottom: 25px;
-    margin-top: 15px;
     height: auto;
 }
 
@@ -161,7 +160,6 @@ main{
 footer{
     height: 20vh;
     background-color: rgba(230, 126, 34,1.0);
-    margin-top: 15px;
     color: white;
 }
 

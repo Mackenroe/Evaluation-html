@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -35,16 +35,16 @@
                             <a class="nav-link" href="./index.html#actus">Actualités</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#about-us">Nous</a>
+                            <a class="nav-link" href="./index.html#projects">Projets</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./index.html#projects">Projets</a>
+                            <a class="nav-link active" aria-current="page" href="#about-us">Nous</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#dons">Dons</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#benevoles">Bénevolat</a>
+                            <a class="nav-link" href="./index.html#benevoles">Bénevolat</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./OneleafDaysEvent.html">#OneleafDays</a>
@@ -65,7 +65,7 @@
 
     <main>
         <section class="container-fluid summary">
-            <article class="summary-content">
+            <div class="summary-content">
                 <div class="row summary-text">
                     <div class="container-fluid">
                         <h2>Sommaire</h2>
@@ -105,11 +105,11 @@
                         </ul>
                     </div>
                 </div>
-            </article>
+            </div>
         </section>
 
         <section class="container-fluid">
-            <article class="row" id="creation-date">
+            <div class="row" id="creation-date">
                 <h2>
                     Les dates importantes
                     <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
@@ -126,9 +126,9 @@
                     <li><h6>2020 : Lorem ipsum dolor</h6></li>
                     <li><h6>2021 : Lorem ipsum dolor</h6></li>
                 </ul>
-            </article>
+            </div>
 
-            <article class="row" id="founders">
+            <div class="row" id="founders">
             <h2>
                 Fondateurs et direction generale
                 <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
@@ -168,11 +168,11 @@
                         <img class="founders-img" src="./images/profile-image.png" alt="Image de profil de la personne mentionnée">
                     </div>
                 </div>
-            </article>
+            </div>
 
-                            <!-------LES LOCAUX-------->
+<!-- LES LOCAUX -->
 
-            <article class="container-fluid" id="locals">
+            <div class="container-fluid" id="locals">
                 <h2>
                     Les locaux
                     <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-house-door" viewBox="0 0 16 16">
@@ -181,7 +181,7 @@
                 </h2>
                 <div class="row d-flex locals rounded-3 mb-2">
                     <div class="col-12 col-lg-4 d-flex justify-content-center">
-                        <iframe width="500" height="400" src="https://maps.google.com/maps?q=Oneleaf&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                        <iframe width="500" height="400" src="https://maps.google.com/maps?q=Oneleaf&t=&z=13&ie=UTF8&iwloc=&output=embed" style="overflow:hidden;"></iframe>
                     </div>
                     <div class="col-12 col-lg-7">
                         <h4> Siége international et france</h4>
@@ -198,15 +198,15 @@
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
                                     <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
                                 </svg>
-                                <a href="mailto: siegeOneleaf@oneleaf.com">email : siegeOneleaf@oneleaf.com</a>
+                                <a href="mailto:siegeoneleaf@oneleaf.com">email : siegeoneleaf@oneleaf.com</a>
                             </li>
                         </ul>
                     </div>
                 </div>
-            </article>
+            </div>
     
-                            <!-------HISTORIQUE DES ACTIONS-------->
-            <article class="row" id="historical-projects">
+<!-- HISTORIQUE DES ACTIONS -->
+            <div class="row" id="historical-projects">
                 <h2>
                     Historique de nos actions financées grâce aux dons
                     <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
@@ -214,8 +214,7 @@
                     </svg>
                 </h2>
                 <div class="row d-flex justify-content-center">
-                    <div class="col-12 col-lg-11 bg-light rounded-3" id="historical-projects">
-                        
+                    <div class="col-12 rounded-3">
                         <a class="btn btn-link d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#ActionNav" role="button" aria-expanded="false" aria-controls="ActionNav">
                             <h4>
                                 Les années :
@@ -225,8 +224,11 @@
                                 <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
                             </svg>
                         </a>
+                    </div>
+
+                    <div class="collapse" id="ActionNav">
                         <div class="container-fluid">
-                            <div class="collapse border-top" id="ActionNav">
+                            <div class="border-top">
                                 <a class="btn btn-link d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#Year2022" role="button" aria-expanded="false" aria-controls="Year2022">
                                     <h5>
                                         2022
@@ -235,9 +237,9 @@
                                         <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
                                     </svg>
                                 </a>
-                                <div class="row">
-                                    <div class="collapse border-top" id="Year2022">
-                                        <a class="collapse btn btn-link d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#first2022" role="button" aria-expanded="false" aria-controls="first2022" id="Year2022">
+                                <div class="collapse row" id="Year2022">
+                                    <div class="border-top">
+                                        <a class="collapse btn btn-link d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#first2022" role="button" aria-expanded="false" aria-controls="first2022">
                                             <h6>
                                                 1er trimestre 2022
                                             </h6>
@@ -256,8 +258,8 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="collapse border-top" id="Year2022">
-                                        <a class="collapse btn btn-link d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#second2022" role="button" aria-expanded="false" aria-controls="second2022" id="Year2022">
+                                    <div class="border-top">
+                                        <a class="collapse btn btn-link d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#second2022" role="button" aria-expanded="false" aria-controls="second2022">
                                             <h6>
                                                 2iéme trimestre 2022
                                             </h6>
@@ -276,8 +278,8 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="collapse border-top" id="Year2022">
-                                        <a class="collapse btn btn-link d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#third2022" role="button" aria-expanded="false" aria-controls="third2022" id="Year2022">
+                                    <div class="border-top">
+                                        <a class="collapse btn btn-link d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#third2022" role="button" aria-expanded="false" aria-controls="third2022">
                                             <h6>
                                                 3iéme trimestre 2022
                                             </h6>
@@ -299,9 +301,9 @@
                                 </div>
                             </div>
                         </div>
-    
+
                         <div class="container-fluid">
-                            <div class="collapse border-top" id="ActionNav">
+                            <div class="border-top">
                                 <a class="btn btn-link d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#Year2021" role="button" aria-expanded="false" aria-controls="Year2021">
                                     <h5>
                                         2021
@@ -310,9 +312,9 @@
                                         <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
                                     </svg>
                                 </a>
-                                <div class="row">
-                                    <div class="collapse border-top" id="Year2021">
-                                        <a class="collapse btn btn-link d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#first2021" role="button" aria-expanded="false" aria-controls="first2021" id="Year2021">
+                                <div class="row collapse" id="Year2021">
+                                    <div class="border-top">
+                                        <a class="btn btn-link d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#first2021" role="button" aria-expanded="false" aria-controls="first2021">
                                             <h6>
                                                 1er trimestre 2021
                                             </h6>
@@ -321,7 +323,6 @@
                                             </svg>
                                         </a>
                                         <div class="container-fluid collapse" id="first2021">
-        
                                             <div class="row">
                                                 <h5>Projet 1</h5>
                                                 <h6>Récolte : 150 346 €</h6>
@@ -330,11 +331,10 @@
                                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
                                                 </p>
                                             </div>
-        
                                         </div>
                                     </div>
-                                    <div class="collapse border-top" id="Year2021">
-                                        <a class="collapse btn btn-link d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#second2021" role="button" aria-expanded="false" aria-controls="second2022" id="Year2021">
+                                    <div class="border-top">
+                                        <a class="collapse btn btn-link d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#second2021" role="button" aria-expanded="false" aria-controls="second2022">
                                             <h6>
                                                 2iéme trimestre 2021
                                             </h6>
@@ -343,7 +343,7 @@
                                             </svg>
                                         </a>
                                         <div class="container-fluid collapse" id="second2021">
-        
+                                        
                                             <div class="row">
                                                 <h5>Projet 2</h5>
                                                 <h6>Récolte : 150 346 €</h6>
@@ -352,11 +352,11 @@
                                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
                                                 </p>
                                             </div>
-        
+                                        
                                         </div>
                                     </div>
-                                    <div class="collapse border-top" id="Year2021">
-                                        <a class="collapse btn btn-link d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#third2021" role="button" aria-expanded="false" aria-controls="third2022" id="Year2021">
+                                    <div class="border-top">
+                                        <a class="collapse btn btn-link d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#third2021" role="button" aria-expanded="false" aria-controls="third2022">
                                             <h6>
                                                 3iéme trimestre 2021
                                             </h6>
@@ -365,7 +365,6 @@
                                             </svg>
                                         </a>
                                         <div class="container-fluid collapse" id="third2021">
-        
                                             <div class="row">
                                                 <h5>Projet 3</h5>
                                                 <h6>Récolte : 150 346 €</h6>
@@ -374,15 +373,14 @@
                                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
                                                 </p>
                                             </div>
-        
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-    
+
                         <div class="container-fluid">
-                            <div class="collapse border-top" id="ActionNav">
+                            <div class="border-top">
                                 <a class="btn btn-link d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#Year2020" role="button" aria-expanded="false" aria-controls="Year2020">
                                     <h5>
                                         2020
@@ -391,9 +389,9 @@
                                         <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
                                     </svg>
                                 </a>
-                                <div class="row">
-                                    <div class="collapse border-top" id="Year2020">
-                                        <a class="collapse btn btn-link d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#first2020" role="button" aria-expanded="false" aria-controls="first2021" id="Year2020">
+                                <div class="row collapse" id="Year2020">
+                                    <div class="border-top">
+                                        <a class="collapse btn btn-link d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#first2020" role="button" aria-expanded="false" aria-controls="first2021">
                                             <h6>
                                                 1er trimestre 2020
                                             </h6>
@@ -402,7 +400,6 @@
                                             </svg>
                                         </a>
                                         <div class="container-fluid collapse" id="first2020">
-        
                                             <div class="row">
                                                 <h5>Projet 1</h5>
                                                 <h6>Récolte : 150 346 €</h6>
@@ -411,11 +408,10 @@
                                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
                                                 </p>
                                             </div>
-        
                                         </div>
                                     </div>
-                                    <div class="collapse border-top" id="Year2020">
-                                        <a class="collapse btn btn-link d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#second2020" role="button" aria-expanded="false" aria-controls="second2022" id="Year2020">
+                                    <div class="border-top">
+                                        <a class="collapse btn btn-link d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#second2020" role="button" aria-expanded="false" aria-controls="second2022">
                                             <h6>
                                                 2iéme trimestre 2020
                                             </h6>
@@ -424,7 +420,6 @@
                                             </svg>
                                         </a>
                                         <div class="container-fluid collapse" id="second2020">
-        
                                             <div class="row">
                                                 <h5>Projet 2</h5>
                                                 <h6>Récolte : 150 346 €</h6>
@@ -433,11 +428,10 @@
                                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
                                                 </p>
                                             </div>
-        
                                         </div>
                                     </div>
-                                    <div class="collapse border-top" id="Year2020">
-                                        <a class="collapse btn btn-link d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#third2020" role="button" aria-expanded="false" aria-con19ols="third2022" id="Year2020">
+                                    <div class="border-top">
+                                        <a class="collapse btn btn-link d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#third2020" role="button" aria-expanded="false" aria-controls="third2022">
                                             <h6>
                                                 3iéme trimestre 2020
                                             </h6>
@@ -446,7 +440,6 @@
                                             </svg>
                                         </a>
                                         <div class="container-fluid collapse" id="third2020">
-        
                                             <div class="row">
                                                 <h5>Projet 3</h5>
                                                 <h6>Récolte : 150 346 €</h6>
@@ -455,15 +448,14 @@
                                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
                                                 </p>
                                             </div>
-        
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-    
+                    
                         <div class="container-fluid">
-                            <div class="collapse border-top" id="ActionNav">
+                            <div class="border-top">
                                 <a class="btn btn-link d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#Year2019" role="button" aria-expanded="false" aria-controls="Year2019">
                                     <h5>
                                         2019
@@ -472,16 +464,15 @@
                                         <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
                                     </svg>
                                 </a>
-                                <div class="row">
-                                    <div class="collapse border-top" id="Year2019">
-                                        <a class="collapse btn btn-link d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#first2019" role="button" aria-expanded="false" aria-controls="first2021" id="Year2019">
+                                <div class="row collapse" id="Year2019">
+                                    <div class="border-top">
+                                        <a class="collapse btn btn-link d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#first2019" role="button" aria-expanded="false" aria-controls="first2021">
                                             <h6>1er trimestre 2019</h6>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
                                                 <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
                                             </svg>
                                         </a>
                                         <div class="container-fluid collapse" id="first2019">
-        
                                             <div class="row">
                                                 <h5>Projet 1</h5>
                                                 <h6>Récolte : 150 346 €</h6>
@@ -490,11 +481,10 @@
                                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
                                                 </p>
                                             </div>
-        
                                         </div>
                                     </div>
-                                    <div class="collapse border-top" id="Year2019">
-                                        <a class="collapse btn btn-link d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#second2019" role="button" aria-expanded="false" aria-controls="second2022" id="Year2019">
+                                    <div class="border-top">
+                                        <a class="collapse btn btn-link d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#second2019" role="button" aria-expanded="false" aria-controls="second2022">
                                             <h6>
                                                 2iéme trimestre 2019
                                             </h6>
@@ -503,7 +493,6 @@
                                             </svg>
                                         </a>
                                         <div class="container-fluid collapse" id="second2019">
-        
                                             <div class="row">
                                                 <h5>Projet 2</h5>
                                                 <h6>Récolte : 150 346 €</h6>
@@ -512,11 +501,10 @@
                                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
                                                 </p>
                                             </div>
-        
                                         </div>
                                     </div>
-                                    <div class="collapse border-top" id="Year2019">
-                                        <a class="collapse btn btn-link d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#third2019" role="button" aria-expanded="false" aria-controls="third2022" id="Year2019">
+                                    <div class="border-top">
+                                        <a class="collapse btn btn-link d-flex justify-content-between align-items-center" data-bs-toggle="collapse" href="#third2019" role="button" aria-expanded="false" aria-controls="third2022">
                                             <h6>
                                                 3iéme trimestre 2019
                                             </h6>
@@ -525,7 +513,6 @@
                                             </svg>
                                         </a>
                                         <div class="container-fluid collapse" id="third2019">
-        
                                             <div class="row">
                                                 <h5>Projet 3</h5>
                                                 <h6>Récolte : 150 346 €</h6>
@@ -534,7 +521,6 @@
                                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
                                                 </p>
                                             </div>
-        
                                         </div>
                                     </div>
                                 </div>
@@ -542,8 +528,7 @@
                         </div>
                     </div>
                 </div>
-            </article>
-
+            </div>
         </section>
     </main>
 
@@ -600,8 +585,6 @@
         </a>
         
     </footer>
-    
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </html>
