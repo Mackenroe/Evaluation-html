@@ -32,6 +32,10 @@ nav ul li a:hover{
     display: none;
 }
 
+.ticket-button-expand{
+    display: none;
+}
+
 /************************************** NAV ********************************************/
 
 main{
@@ -307,12 +311,17 @@ footer a{
         display: none;
     }
 
+    .ticket-button{
+        display: none;
+    }
+
     .donsbutton-expand{
         display: inline-block;
     }
+    .ticket-button-expand{
+        display: inline-block;
+    }
 }
-
-
 /******************************** 1024 PX ********************************************/
 
 @media (min-width: 1024px) {
@@ -453,7 +462,7 @@ footer a{
 
 /*************************************************CSS PAGE ONELEAF********************************************************/
 
-/** SOMMAIRE NAV **/
+/** SOMMAIRE ONELEAF PAGE **/
 
 .aboutus-nav > li > h3 > a{
     list-style-type: none;
@@ -472,7 +481,7 @@ ul.aboutus-nav:hover{
     color: lightgray;
 }
 
-/** SOMMAIRE NAV **/
+/** SOMMAIRE ONELEAF PAGE **/
 .border-top{
     border-top: 1px solid black;
     border-top-width: thick;
@@ -533,19 +542,6 @@ iframe{
     color: white;
 }
 
-@media (min-width: 992px) {
-    .donsbutton{
-        display: none;
-    }
-}
-
-
-@media (max-width: 992px){
-    .donsbutton-expand{
-        display: none;
-    }
-}
-
 @media (min-width: 1024px){
     .summary{
         background-image: url(./images/kid.jpg);
@@ -554,3 +550,96 @@ iframe{
         color: white;
     }
 }
+
+/*************************************************CSS PAGE EVENT********************************************************/
+
+.about-us-page{
+    background: rgba(231, 76, 60,1.0);
+}
+
+.title{
+    font-size: 6vw;
+    font-weight: 700;
+}
+
+.concert{
+    background: url(./images/palmtree.png) no-repeat 20% 100%;
+    background-size: cover;
+}
+.concert > h3{
+    font-size: 2rem;
+    color: white;
+}
+
+.dates > h2{
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 5px solid #2ecc71;
+    color: #f1c40f;
+    font-size: 2.5rem;
+    font-weight: 700;
+
+}
+
+.artists > h5{
+    font-size: 2rem;
+    text-align: center;
+    color: #27ae60;
+    font-weight: 700;
+
+}
+
+.artists > ul > li{
+    list-style-type: none;
+    font-size: 3rem;
+    text-align: center;
+    color: #f39c12;
+    font-weight: 700;
+}
+
+.card{
+    height: 400px;
+}
+
+.card-header{
+    background-color: #27ae60;
+    color: #f1c40f;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.card-body{
+    background: bisque;
+}
+
+.price{
+    font-size: 4rem;
+    font-weight: 600;
+}
+.color-items, 
+.foot-items, 
+.food-items{
+    height: auto;
+    text-align: justify;
+}
+
+.color-content, 
+.foot-content,
+.food-content{
+    color: white;
+}
+
+.color-content{
+    background: #f39c12;
+}
+
+.foot-content{
+    background: rgb(3, 64, 105);
+    padding-bottom: 10px;
+}
+
+.food-content{
+    background: rgba(243, 104, 224,1.0);
+}
+
